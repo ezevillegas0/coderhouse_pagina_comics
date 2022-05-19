@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-left: 17%;
+    margin-right: 17%;
+    background-attachment: fixed;
+
+}
+
+/* estilos del contenedor */
+
+.contenedorGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "header"
+        "barraNavegacion"
+        "main"
+        "footer"
+
+}
+
+/* estilos generales */
+
+p {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    font-size: 1.3rem;
+
+}
+
+.navegador {
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: yellow;
+    padding: 5px;
+
+
+}
+
+.aclaraciones {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.12rem;
+    gap: 1rem;
+}
+
+.serieslimitadas1 {
+    color: rgb(54, 190, 20);
+}
+
+.oneshots {
+    color: rgb(221, 5, 5);
+}
+
+.comentarios {
+    color: blue;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2.25rem;
+
+}
+
+.tituloSecundario {
+    text-align: center;
+    font-size: 1.56rem;
+
+}
+
+/* estilos del header y sus hijos */
+
+
+.header {
+    width: 100%;
+    height: 100%;
+    grid-area: header;
+}
+
+
+.imagenPrincipal {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* estilos barra navegacion */
+
+.barraNaveacionSuperior {
+    background-color: rgb(190, 190, 190);
+    font-size: 16px;
+    width: 100%;
+    height: 3.12rem;
+    grid-area: barraNavegacion;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    left: 200px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* estilos main */
+
+.main {
+    grid-area: main;
+    background-color: #686668
+}
+
+
+
+.contendioNoRelacionado {
+    text-align: center;
+}
+
+
+/* estilos body */
+
+body {
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-color: rgb(102, 100, 102);
+
+    background-image: url(../assets/captura\ pantalla.png);
+
+}
+
+
+
+
+/* estilos footer */
+
+.footer {
+    grid-area: footer;
+    background-color: rgb(190, 190, 190);
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 10px;
+    height: auto;
+}
+
+.barraNavegacionInferior {
+    text-align: center;
+
+}
+
+/* pagina contacto */
+
+.tituloContacto {
+    text-align: center;
+}
+
+.cuadro {
+    /* padding-top: 1rem;
+    padding-bottom: 1rem; */
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    font-size: 1.3rem;
+
+}
+
+.botonesContacto {
+    font-size: 1rem;
+    background-color: rgb(221, 81, 81);
+}
+
+.espacios {
+    font-size: 1rem;
+}
+
+
+
+/* responsive */
+
+
+
+@media screen and (min-width:320px) {
+
+    .navegador {
+        font-size: 1.1rem;
+    }
+
+    .titulo {
+        font-size: 0.9rem;
+    }
+
+    p {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 0.63rem;
+    }
+
+    .tituloSecundario {
+        font-size: 0.7rem;
+    }
+
+    .footer {
+        font-size: 0.6rem;
+        padding: 0.3rem;
+    }
+
+    .aclaraciones {
+        font-size: 0.5rem;
+        gap: 0.5rem;
+    }
+
+    .espacios {
+        font-size: 0.6rem;
+    }
+
+    .labelContacto {
+        font-size: 0.7rem;
+    }
+
+    .botonesContacto {
+        font-size: 0.6rem;
+    }
+
+    .cuadro {
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+        font-size: 1.3rem;
+    }
+
+}
+
+ 
+@media screen and (min-width:768px) {
+
+    .navegador {
+        font-size: 1.6rem;
+    }
+
+    .titulo {
+        font-size: 1.8rem;
+    }
+
+    p {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-size: 1.2rem
+    }
+
+    .tituloSecundario {
+        font-size: 1.3rem;
+    }
+
+    .footer {
+        padding: 0.3rem;
+    }
+
+    .aclaraciones {
+        font-size: 1rem;
+        gap: 1.8rem;
+    }
+
+    .espacios {
+        font-size: 0.9rem;
+    }
+
+    .labelContacto {
+        font-size: 0.9rem;
+    }
+
+    .botonesContacto {
+        font-size: 0.8rem;
+    }
+
+    .cuadro {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    
+
+}
