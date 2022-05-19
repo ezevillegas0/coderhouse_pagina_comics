@@ -79,6 +79,16 @@ p {
     font-size: 1.56rem;
 
 }
+/* barra de scroll personalizada */
+
+body::-webkit-scrollbar{
+width: 7px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 10px;
+}
 
 /* estilos del header y sus hijos */
 
