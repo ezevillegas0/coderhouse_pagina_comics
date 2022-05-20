@@ -193,12 +193,57 @@ body {
     font-size: 1rem;
 }
 
+/* marvel */
+
+.spiderman{
+    width: 20%;
+    height: 20%;
+    display: block;
+    animation: spiderman 6s infinite;
+}
+
+.hola{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hola img{
+    width: 250px;
+    height: 450px;
+    margin: auto 4rem;
+    overflow: hidden;
+}
+
+@keyframes spiderman{
+    0%{
+        transform: translateY(-100px);
+    }
+    30%{
+        transform: translateY(0) rotate(10deg);
+
+    }
+
+    50%{
+        transform: rotate(-10deg);
+
+    }
+
+    75%{
+        transform: rotate(10deg);
+    }
+
+    100%{
+        transform: translateY(-100px);
+    }
 
 
 
+}
 /* responsive */
 
 @media screen and (min-width:320px) and (max-width:768px){
+
+    
 
     .navegador {
         font-size: 1.1rem;
