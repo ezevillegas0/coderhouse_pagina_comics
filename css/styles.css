@@ -292,8 +292,8 @@ body {
 }
 
 .contenedorMarvel img {
-    width: 250px;
-    height: 450px;
+    width: 15.6rem;
+    height: 28rem;
     margin: auto 4rem;
     overflow: hidden;
 }
@@ -336,6 +336,16 @@ body {
 
     }
 
+    .contenedorMarvel img {
+        width: 11.7rem;
+        height: 21rem;
+        margin: auto 2rem;
+        overflow: hidden;
+    }
+
+
+
+
 
 }
 
@@ -361,6 +371,17 @@ body {
     .navegacion ul li a {
         padding: 0.5rem 0.6rem;
         font-size: 1rem;
+    }
+
+
+
+
+
+    .contenedorMarvel img {
+        width: 11.7rem;
+        height: 21rem;
+        margin: auto 2rem;
+        overflow: hidden;
     }
 
 
