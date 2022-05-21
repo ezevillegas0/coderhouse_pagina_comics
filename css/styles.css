@@ -16,6 +16,9 @@ html {
 
 }
 
+
+
+
 /* estilos del contenedor */
 
 .contenedorGrid {
@@ -36,15 +39,6 @@ p {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
     font-size: 1.3rem;
-
-}
-
-.navegador {
-    text-decoration: none;
-    font-size: 1.7rem;
-    color: yellow;
-    padding: 5px;
-
 
 }
 
@@ -95,11 +89,6 @@ body::-webkit-scrollbar-thumb {
 /* estilos del header y sus hijos */
 
 
-.header {
-    width: 100%;
-    height: 100%;
-    grid-area: header;
-}
 
 
 .imagenPrincipal {
@@ -109,29 +98,74 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-/* estilos barra navegacion */
+/* estilos header */
 
-.barraNaveacionSuperior {
+.contenedorHeader {
+    width: 95%;
+  /*   max-width: 850px; */
+    margin: 0 auto;
+}
+
+.header {
+    grid-area: header;
     background-color: rgb(190, 190, 190);
-    font-size: 16px;
+    padding: 2rem 0;
+    
     width: 100%;
-    height: 3.12rem;
-    grid-area: barraNavegacion;
-    text-align: center;
     position: sticky;
     top: 0px;
-    left: 200px;
-    display: inline-block;
-    justify-content: center;
+    left: 12.5rem;
+    margin: 0px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
+
+.navegacion ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.navegacion ul li {
+    display: inline-block;
+}
+
+.navegacion ul li a {
+    padding: 0.5rem 0.6rem;
+    transition: all 0.4s linear ;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.navegacion ul li a:hover {
+    background:gray ;
+}
+
+.nombrePagina{
+    letter-spacing: 1rem;
+    font-size:1.5rem ;
+}
+
+
 
 
 /* estilos main */
 
 .main {
     grid-area: main;
-    background-color: #686668
+    background-color: #686668;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 
@@ -163,8 +197,9 @@ body {
     background-color: rgb(190, 190, 190);
     width: 100%;
     font-size: 1.2rem;
-    padding: 10px;
+    padding: 1rem 0;
     height: auto;
+    text-align: center;
 }
 
 .barraNavegacionInferior {
@@ -205,12 +240,12 @@ body {
     animation: spiderman 6s infinite;
 }
 
-.hola {
+.contenedorMarvel {
     display: flex;
     justify-content: space-between;
 }
 
-.hola img {
+.contenedorMarvel img {
     width: 250px;
     height: 450px;
     margin: auto 4rem;
@@ -246,13 +281,48 @@ body {
 
 /* responsive */
 
-@media screen and (min-width:320px) and (max-width:768px) {
-
-
-
-    .navegador {
-        font-size: 1.1rem;
+@media screen and (min-width:320px) and (max-width:499px){
+    html {
+        font-size: 12px;
+        margin-left: 0%;
+        margin-right: 0%;
+        
+    
     }
+    
+
+}
+
+@media screen and (min-width:500px) and (max-width:768px) {
+
+    .header {
+        padding: 1rem 0;
+
+    }
+
+    .contenedorHeader {
+        width: 100%;
+      /*   max-width: 850px; */
+        margin: 0 auto;
+    }
+    
+
+    .nombrePagina{
+        letter-spacing: 1rem;
+        font-size:1rem ;
+    }
+
+    .navegacion ul li a {
+        padding: 0.5rem 0.6rem;
+        font-size: 1rem;
+    }
+    
+
+
+
+
+
+
 
     .titulo {
         font-size: 1rem;
