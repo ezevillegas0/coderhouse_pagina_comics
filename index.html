@@ -8,6 +8,9 @@
     <title>la baticueva</title>
     <link rel="shortcut icon" href="./assets/logobatman.png">
     <link rel="stylesheet" href="./css/styles.css">
+
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+
 </head>
 
 <body>
@@ -20,23 +23,24 @@
             <div class="contenedorHeader logo-nav-container">
 
                 <a href="#" class="nombrePagina">LA BATICUEVA</a>
-
                 <nav class="navegacion">
-
                     <ul>
 
                         <li><a href="index.html" class="hvr-overline-from-center" href="index.html">INICIO</a></li>
-                        <li><a href="./paginas/marvel.html" class="hvr-overline-from-center" href="index.html">MARVEL</a></li>
+                        <li><a href="./paginas/marvel.html" class="hvr-overline-from-center"
+                                href="index.html">MARVEL</a></li>
                         <li><a href="./paginas/dc.html" class="hvr-overline-from-center" href="index.html">DC</a></li>
-                        <li><a href="./paginas/otros.html" class="hvr-overline-from-center" href="index.html">OTROS</a></li>
-                        <li><a href="./paginas/contacto.html" class="hvr-overline-from-center" href="index.html">CONTACTO</a></li>
+                        <li><a href="./paginas/otros.html" class="hvr-overline-from-center" href="index.html">OTROS</a>
+                        </li>
+                        <li><a href="./paginas/contacto.html" class="hvr-overline-from-center"
+                                href="index.html">CONTACTO</a></li>
+
                     </ul>
-
                 </nav>
-
             </div>
 
         </header>
+
 
         <main class="main">
             <section>
@@ -70,12 +74,71 @@
                 <br>
             </section>
 
+            <section class="container mb-5 mt-5">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/batman- carousel.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/watchmen-carousel.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/avengers-carousel.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+
+
+
             <section>
                 <h2 class="tituloSecundario"> RESEÑAS</h2>
                 <br>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ipsam nulla architecto maiores
-                    labore eius nisi libero ipsum magni cum. Nesciunt, ea. Neque in ratione excepturi dignissimos harum,
-                    nemo expedita?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ipsam nulla architecto maiores labore eius nisi libero ipsum magni cum. Nesciunt, ea. Neque in ratione excepturi dignissimos harum, nemo expedita?</p>
+
+
+                <div class="card-group">
+                    <div class="card bg-transparent m-2 ">
+                        <img src="./assets/avengers-carousel.jpg" class="card-img-top" alt="reseña marvel">
+                        <div class="card-body">
+                            <h5 class="card-title">vengadores desunidos <span class="badge bg-secondary">New</span></h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card bg-transparent m-2">
+                        <img src="./assets/batman- carousel.jpg" class="card-img-top" alt="reseña batman">
+                        <div class="card-body">
+                            <h5 class="card-title">batman año uno <span class="badge bg-secondary">New</span> </h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card bg-transparent m-2">
+                        <img src="./assets/watchmen-carousel.jpg" class="card-img-top" alt="reseña otros">
+                        <div class="card-body">
+                            <h5 class="card-title">watchmen <span class="badge bg-secondary">New</span> </h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height action.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+
             </section>
 
 
@@ -101,16 +164,29 @@
 
 
         <footer class="footer">
-            <br>
-            <p>
-                todos los derechos reservados
-                <br>
-                Lorem ipsum dolor sit ateturuas illuipsam magni aliquid, quod tempora natus sunt porro necessitatibus
-                similique possimus quibusdam laborum consequuntur.
-            </p>
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-xs-12 d-flex justify-content-center aling-items-center">
+                        <p>todos los derechos reservados</p>
+                    </div>
+
+                    <div class="col-xs-12 d-flex justify-content-center aling-items-center ">
+                        <img src="./assets/book-open.svg" alt="">
+                        <img src="./assets/instagram.svg" alt="">
+                        <img src="./assets/twitter.svg" alt="">
+                        <img src="./assets/facebook.svg" alt="">
+                    </div>
+
+                </div>
+            </div>
+
         </footer>
 
     </div>
+
+    <script src="libs/bootstrap/js/bootstrap.bundle.min.js"> </script>
+
 
 </body>
 
