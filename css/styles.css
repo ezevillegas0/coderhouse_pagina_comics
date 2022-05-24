@@ -225,7 +225,18 @@ body {
 
 }
 
+/* DC */
 
+.contenedorDC{
+    display: flex;
+    justify-content: space-between;
+}
+
+.batman{
+    width: 60%;
+    height: 60%;
+    display: block;
+}
 
 
 
