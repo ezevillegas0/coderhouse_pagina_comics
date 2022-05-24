@@ -142,66 +142,37 @@ body::-webkit-scrollbar-thumb {
 
 /* estilos header */
 
-
-.contenedorHeader {
-    width: 95%;
-    margin: 0 auto;
+.colorb{
+    background-color:rgb(190, 190, 190) ;
     
 }
- 
-
 
 .header {
     grid-area: header;
-    background-color: rgb(190, 190, 190);
-    padding: 2rem 0;
-
-  
+    background-color: rgb(190, 190, 190);;
+    padding: 2rem 0; 
     position: sticky;
     border-radius: 0.6rem;
 }
 
 .header a {
-    color: white;
-    text-decoration: none;
     font-weight: bold;
-}
-
-.logo-nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navegacion ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-
-}
-
-.navegacion ul li {
-    display: inline-block;
-}
-
-.navegacion ul li a {
-    padding: 0.5rem 0.6rem;
-    transition: all 0.4s linear;
-    border-radius: 5px;
-    font-size: 1.5rem;
-}
-
-.navegacion ul li a:hover {
-    background: gray;
-}
-
-.nombrePagina {
-    letter-spacing: 1rem;
-    font-size: 1.5rem;
 } 
 
+.div ul li a{
+    padding: 0.5rem 0.6rem;
+    transition: all 0.4s linear;
+    
+    
+}
 
-
+div ul li a:hover{
+    background: gray;
+    border-radius: 5px;
+    padding: 0.5rem 0.6rem;
+    transition: all 0.4s linear;
+    
+}
 
 /* estilos main */
 
