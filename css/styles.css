@@ -79,6 +79,7 @@ p {
     padding-right: 2.5rem;
     font-size: 1.3rem;
 
+
 }
 
 .aclaraciones {
@@ -254,29 +255,8 @@ body {
 }
 
 
-/* pagina contacto */
 
-.tituloContacto {
-    text-align: center;
-}
 
-.cuadro {
-    /* padding-top: 1rem;
-    padding-bottom: 1rem; */
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    font-size: 1.3rem;
-
-}
-
-.botonesContacto {
-    font-size: 1rem;
-    background-color: rgb(221, 81, 81);
-}
-
-.espacios {
-    font-size: 1rem;
-}
 
 /* marvel */
 
