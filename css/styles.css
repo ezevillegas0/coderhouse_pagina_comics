@@ -261,6 +261,11 @@ body {
     overflow: hidden;
 }
 
+
+.imagenDesunidos{
+    width: 100%;
+}
+
 @keyframes spiderman {
     0% {
         transform: translateY(-100px);
@@ -306,8 +311,18 @@ body {
         overflow: hidden;
     }
 
+   
 
-
+    .imagenDesunidos{
+        width: 50%;
+        
+    }
+    
+    .contenedorImgagenDesunidos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
 
 }
@@ -396,4 +411,22 @@ body {
         padding-right: 1.2rem;
         font-size: 1.3rem;
     }
+
+
+    
+
+
+
+
+    .imagenDesunidos{
+        width: 70%;
+        
+    }
+    
+    .contenedorImgagenDesunidos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
 }
