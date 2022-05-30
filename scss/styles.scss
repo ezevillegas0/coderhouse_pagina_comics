@@ -1,0 +1,218 @@
+/* IMPORTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import "_hover";
+@import "_barrascroll";
+@import "_header";
+@import "_footer";
+@import "_dc_marvel";
+
+/* estilos del contenedor */
+
+.contenedorGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "imagenPrincipal"
+        "header"
+        "barraNavegacion"
+        "main"
+        "footer"
+
+}
+
+/* GENERALES */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-left: 17%;
+    margin-right: 17%;
+    background-attachment: fixed;
+
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-color: rgb(102, 100, 102);
+    background-image: url(../assets/captura_pantalla.png);
+}
+
+/* estilos generales */
+
+p {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    font-size: 1.3rem;
+
+
+}
+
+.aclaraciones {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.12rem;
+    gap: 1rem;
+}
+
+.serieslimitadas1 {
+    color: rgb(54, 190, 20);
+}
+
+.oneshots {
+    color: rgb(221, 5, 5);
+}
+
+.comentarios {
+    color: blue;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2.25rem;
+
+}
+
+.tituloSecundario {
+    text-align: center;
+    font-size: 1.56rem;
+
+}
+
+
+/* MAIN */
+
+.main {
+    grid-area: main;
+    background-color: #686668;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 0.6rem;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width:320px) and (max-width:499px) {
+	html {
+		font-size: 12px;
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+
+	.contenedorMarvel {
+		img {
+			width: 11.7rem;
+			height: 21rem;
+			margin: auto 2rem;
+			overflow: hidden;
+		}
+	}
+
+	.imagenDesunidos {
+		width: 50%;
+	}
+
+	.contenedorImgagenDesunidos {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+}
+
+
+@media screen and (min-width:500px) and (max-width:768px) {
+	.header {
+		padding: 1rem 0;
+	}
+	.contenedorHeader {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.nombrePagina {
+		letter-spacing: 1rem;
+		font-size: 1rem;
+	}
+	.navegacion {
+		ul {
+			li {
+				a {
+					padding: 0.5rem 0.6rem;
+					font-size: 1rem;
+				}
+			}
+		}
+	}
+	.contenedorMarvel {
+		img {
+			width: 11.7rem;
+			height: 21rem;
+			margin: auto 2rem;
+			overflow: hidden;
+		}
+	}
+	.titulo {
+		font-size: 1rem;
+	}
+	p {
+		padding-left: 1rem;
+		padding-right: 1rem;
+		font-size: 0.8rem;
+	}
+	.tituloSecundario {
+		font-size: 0.8rem;
+	}
+	.footer {
+		font-size: 0.6rem;
+		padding: 0.3rem;
+	}
+	.aclaraciones {
+		font-size: 0.6rem;
+		gap: 0.5rem;
+	}
+	.espacios {
+		font-size: 0.6rem;
+	}
+	.labelContacto {
+		font-size: 0.7rem;
+	}
+	.botonesContacto {
+		font-size: 0.6rem;
+	}
+	.cuadro {
+		padding-left: 1.2rem;
+		padding-right: 1.2rem;
+		font-size: 1.3rem;
+	}
+	.imagenDesunidos {
+		width: 70%;
+	}
+	.contenedorImgagenDesunidos {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+
+
+
+
+
+
+
+
+
