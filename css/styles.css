@@ -164,12 +164,12 @@ p {
   font-size: 1.3rem; }
 
 .aclaraciones {
-  display: flex;
   text-align: center;
-  align-items: center;
-  justify-content: center;
   font-size: 1.12rem;
-  gap: 1rem; }
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 .serieslimitadas1 {
   color: #36be14; }
@@ -253,8 +253,6 @@ p {
     margin-left: 0%;
     margin-right: 0%; }
   .contenedorMarvel img {
-    width: 11.7rem;
-    height: 21rem;
     margin: auto 2rem;
     overflow: hidden;
     height: 21rem;
