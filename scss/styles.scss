@@ -66,7 +66,7 @@ p {
     align-items: center;
     justify-content: center;
     font-size: 1.12rem;
-    gap: 1rem;
+    gap: map-get($medidas, 1rem);
 }
 
 .serieslimitadas1 {
@@ -99,8 +99,8 @@ p {
 .main {
     grid-area: main;
     background-color: #686668;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: map-get($medidas, 2rem);
+    padding-bottom: map-get($medidas, 2rem);
     border-radius: 0.6rem;
 }
 

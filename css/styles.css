@@ -50,6 +50,12 @@ body::-webkit-scrollbar-thumb {
   grid-area: imagenPrincipal;
   border-radius: 0.9rem; }
 
+.imagenPagina {
+  width: 100%; }
+
+.imagenP {
+  width: 25%; }
+
 .header {
   grid-area: header;
   background-color: #bebebe;
@@ -113,6 +119,7 @@ div ul li a:hover {
 .imagenDesunidos {
   width: 100%; }
 
+/*animacion spiderman*/
 @keyframes spiderman {
   0% {
     transform: translateY(-100px); }
@@ -126,6 +133,7 @@ div ul li a:hover {
     transform: translateY(-100px); } }
 
 /* media queries */
+/* 320-499px */
 @media screen and (min-width: 320px) and (max-width: 499px) {
   html {
     font-size: 12px;
@@ -143,6 +151,7 @@ div ul li a:hover {
     align-items: center;
     justify-content: center; } }
 
+/* 500px-768 */
 @media screen and (min-width: 500px) and (max-width: 768px) {
   .header {
     padding: 1rem 0; }
@@ -189,7 +198,9 @@ div ul li a:hover {
   .contenedorImgagenDesunidos {
     display: flex;
     align-items: center;
-    justify-content: center; } }
+    justify-content: center; }
+  .imagenP {
+    width: 30%; } }
 
 /* GENERALES */
 * {
