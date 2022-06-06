@@ -2,20 +2,19 @@
 
 
 .imagenPrincipal {
-    width: 100%;
-    height: 100%;
     grid-area: imagenPrincipal;
     border-radius: 0.9rem;
+	@include sizes (100%, 100%);
 }
 
 .imagenPagina{
-	width: 100%;
 	
+	@include sizes(100%, 100%);
 
 }
 
 .imagenP{
-	width: 25%;
+	@include sizes(25%, 100%);
 
 }
 

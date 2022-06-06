@@ -1,4 +1,13 @@
 
+
+/* mixin */
+
+
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+ }
+ 
 /* maps */
 
 $medidas:(
@@ -9,3 +18,4 @@ $medidas:(
     2rem: 2rem,
 
 )
+

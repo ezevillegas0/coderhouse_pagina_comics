@@ -7,9 +7,8 @@
 }
 
 .batman{
-    width: 60%;
-    height: 60%;
     display: block;
+    @include sizes(50%, 50%);
 }
 
 
@@ -17,26 +16,21 @@
 /* marvel */
 
 .spiderman {
-    width: 20%;
-    height: 20%;
     display: block;
     animation: spiderman 6s infinite;
+    @include sizes(20%, 20%);
 }
 
 .contenedorMarvel {
     display: flex;
     justify-content: space-between;
     img{
-        width: 15.6rem;
-        height: 28rem;
         margin: auto 4rem;
         overflow: hidden;
+        @include sizes(15.6rem, 28rem);
     }
 }
 
-.imagenDesunidos{
-    width: 100%;
-}
 
 /*animacion spiderman*/
 
