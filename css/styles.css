@@ -1,5 +1,6 @@
 /* IMPORTS */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+/* maps */
 /* Overline From Center */
 .hvr-overline-from-center {
   display: inline-block;
@@ -124,72 +125,7 @@ div ul li a:hover {
   100% {
     transform: translateY(-100px); } }
 
-/* estilos del contenedor */
-.contenedorGrid {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-areas: "imagenPrincipal" "header" "barraNavegacion" "main" "footer"; }
-
-/* GENERALES */
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box; }
-
-html {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  margin-left: 17%;
-  margin-right: 17%;
-  background-attachment: fixed; }
-
-body {
-  height: 100%;
-  width: 100%;
-  background-size: contain;
-  background-color: #666466;
-  background-image: url(../assets/captura_pantalla.png); }
-
-/* estilos generales */
-p {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-  font-size: 1.3rem; }
-
-.aclaraciones {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.12rem;
-  gap: 1rem; }
-
-.serieslimitadas1 {
-  color: #36be14; }
-
-.oneshots {
-  color: #dd0505; }
-
-.comentarios {
-  color: blue; }
-
-.titulo {
-  text-align: center;
-  font-size: 2.25rem; }
-
-.tituloSecundario {
-  text-align: center;
-  font-size: 1.56rem; }
-
-/* MAIN */
-.main {
-  grid-area: main;
-  background-color: #686668;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  border-radius: 0.6rem; }
-
-/* MEDIA QUERIES */
+/* media queries */
 @media screen and (min-width: 320px) and (max-width: 499px) {
   html {
     font-size: 12px;
@@ -254,3 +190,67 @@ p {
     display: flex;
     align-items: center;
     justify-content: center; } }
+
+/* GENERALES */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+.contenedorGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "imagenPrincipal" "header" "barraNavegacion" "main" "footer"; }
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin-left: 17%;
+  margin-right: 17%;
+  background-attachment: fixed; }
+
+body {
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+  background-color: #666466;
+  background-image: url(../assets/captura_pantalla.png); }
+
+/* estilos generales */
+p {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  font-size: 1.3rem; }
+
+.aclaraciones {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.12rem;
+  gap: 1rem; }
+
+.serieslimitadas1 {
+  color: #36be14; }
+
+.oneshots {
+  color: #dd0505; }
+
+.comentarios {
+  color: blue; }
+
+.titulo {
+  text-align: center;
+  font-size: 2.25rem; }
+
+.tituloSecundario {
+  text-align: center;
+  font-size: 1.56rem; }
+
+/* MAIN */
+.main {
+  grid-area: main;
+  background-color: #686668;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 0.6rem; }
