@@ -21,7 +21,7 @@
 
 .contenedorGrid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: map-get($medidas, 1fr);
     grid-template-areas:
         "imagenPrincipal"
         "header"
