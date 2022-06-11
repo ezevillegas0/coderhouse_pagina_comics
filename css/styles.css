@@ -200,13 +200,13 @@ p {
     height: 21rem;
     width: 11.7rem; }
   .titulo {
-    font-size: 1rem; }
+    font-size: 1.5rem; }
   p {
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 0.8rem; }
   .tituloSecundario {
-    font-size: 0.8rem; }
+    font-size: 1rem; }
   .footer {
     font-size: 0.6rem;
     padding: 0.3rem; }
@@ -224,6 +224,9 @@ p {
     display: flex;
     align-items: center;
     justify-content: center; }
+  .imagenDesunidos {
+    border-radius: 1rem;
+    width: 50%; }
   .imagenP {
     width: 30%; } }
 
@@ -242,6 +245,9 @@ p {
     display: flex;
     align-items: center;
     justify-content: center; }
+  .imagenDesunidos {
+    border-radius: 1rem;
+    width: 50%; }
   .imagenP {
     width: 50%; } }
 

@@ -119,7 +119,7 @@ p {
 		}
 	}
 	.titulo {
-		font-size: 1rem;
+		font-size: 1.5rem;
 	}
 	p {
 		padding-left: 1rem;
@@ -127,7 +127,7 @@ p {
 		font-size: 0.8rem;
 	}
 	.tituloSecundario {
-		font-size: 0.8rem;
+		font-size: 1rem;
 	}
 	.footer {
 		font-size: 0.6rem;
@@ -150,6 +150,10 @@ p {
 	.contenedorImgagenDesunidos {
 		@include flex-center-center
 	}	
+	.imagenDesunidos {
+		border-radius: 1rem;
+		width: 50%;
+	}
 	.imagenP{
 		width: 30%;
 		
@@ -179,6 +183,11 @@ p {
 
 	.contenedorImgagenDesunidos {
 		@include flex-center-center
+	}
+
+	.imagenDesunidos{
+		border-radius: 1rem;
+		width: 50%;
 	}
 
 	.imagenP{
